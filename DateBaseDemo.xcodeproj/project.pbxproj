@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		107CFC53275753B5003C2C92 /* TYSqliteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 107CFC3D275753B4003C2C92 /* TYSqliteModel.m */; };
+		107CFC54275753B5003C2C92 /* TYDebuggerMappingTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 107CFC3F275753B4003C2C92 /* TYDebuggerMappingTabCell.m */; };
+		107CFC55275753B5003C2C92 /* TYDebuggerRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107CFC41275753B4003C2C92 /* TYDebuggerRequestViewController.m */; };
+		107CFC56275753B5003C2C92 /* TYSqliteTableTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 107CFC42275753B4003C2C92 /* TYSqliteTableTool.m */; };
+		107CFC57275753B5003C2C92 /* TYRequestDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107CFC43275753B4003C2C92 /* TYRequestDetailViewController.m */; };
+		107CFC58275753B5003C2C92 /* TYSqliteModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 107CFC46275753B4003C2C92 /* TYSqliteModelTool.m */; };
+		107CFC59275753B5003C2C92 /* TYDebuggerRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 107CFC47275753B4003C2C92 /* TYDebuggerRequestModel.m */; };
+		107CFC5A275753B5003C2C92 /* TYMappingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107CFC48275753B4003C2C92 /* TYMappingDetailViewController.m */; };
+		107CFC5B275753B5003C2C92 /* TYDebuggerMappingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107CFC4C275753B5003C2C92 /* TYDebuggerMappingViewController.m */; };
+		107CFC5C275753B5003C2C92 /* TYSqliteDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 107CFC4F275753B5003C2C92 /* TYSqliteDatabase.m */; };
+		107CFC5D275753B5003C2C92 /* TYDebuggerMappingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 107CFC51275753B5003C2C92 /* TYDebuggerMappingModel.m */; };
 		10C8F719275751CE00F67861 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8F718275751CE00F67861 /* AppDelegate.m */; };
 		10C8F71C275751CE00F67861 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8F71B275751CE00F67861 /* SceneDelegate.m */; };
 		10C8F71F275751CE00F67861 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8F71E275751CE00F67861 /* ViewController.m */; };
@@ -16,6 +27,7 @@
 		10C8F72A275751D100F67861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8F729275751D100F67861 /* main.m */; };
 		10C8F734275751D100F67861 /* DateBaseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8F733275751D100F67861 /* DateBaseDemoTests.m */; };
 		10C8F73F275751D100F67861 /* DateBaseDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8F73E275751D100F67861 /* DateBaseDemoUITests.m */; };
+		F5D37A7F9D1DCFA00022CF0E /* Pods_DateBaseDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D7EAD0F3F9C32B2601EFC8 /* Pods_DateBaseDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		107CFC3D275753B4003C2C92 /* TYSqliteModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYSqliteModel.m; sourceTree = "<group>"; };
+		107CFC3E275753B4003C2C92 /* TYDebuggerRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDebuggerRequestViewController.h; sourceTree = "<group>"; };
+		107CFC3F275753B4003C2C92 /* TYDebuggerMappingTabCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDebuggerMappingTabCell.m; sourceTree = "<group>"; };
+		107CFC40275753B4003C2C92 /* TYSqliteModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYSqliteModel.h; sourceTree = "<group>"; };
+		107CFC41275753B4003C2C92 /* TYDebuggerRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDebuggerRequestViewController.m; sourceTree = "<group>"; };
+		107CFC42275753B4003C2C92 /* TYSqliteTableTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYSqliteTableTool.m; sourceTree = "<group>"; };
+		107CFC43275753B4003C2C92 /* TYRequestDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYRequestDetailViewController.m; sourceTree = "<group>"; };
+		107CFC44275753B4003C2C92 /* TYDebuggerRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDebuggerRequestModel.h; sourceTree = "<group>"; };
+		107CFC45275753B4003C2C92 /* TYSqliteDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYSqliteDatabase.h; sourceTree = "<group>"; };
+		107CFC46275753B4003C2C92 /* TYSqliteModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYSqliteModelTool.m; sourceTree = "<group>"; };
+		107CFC47275753B4003C2C92 /* TYDebuggerRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDebuggerRequestModel.m; sourceTree = "<group>"; };
+		107CFC48275753B4003C2C92 /* TYMappingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYMappingDetailViewController.m; sourceTree = "<group>"; };
+		107CFC49275753B4003C2C92 /* TYDebuggerMappingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDebuggerMappingViewController.h; sourceTree = "<group>"; };
+		107CFC4A275753B4003C2C92 /* TYRequestDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYRequestDetailViewController.h; sourceTree = "<group>"; };
+		107CFC4B275753B5003C2C92 /* TYDebuggerMappingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDebuggerMappingModel.h; sourceTree = "<group>"; };
+		107CFC4C275753B5003C2C92 /* TYDebuggerMappingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDebuggerMappingViewController.m; sourceTree = "<group>"; };
+		107CFC4D275753B5003C2C92 /* TYMappingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYMappingDetailViewController.h; sourceTree = "<group>"; };
+		107CFC4E275753B5003C2C92 /* TYSqliteTableTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYSqliteTableTool.h; sourceTree = "<group>"; };
+		107CFC4F275753B5003C2C92 /* TYSqliteDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYSqliteDatabase.m; sourceTree = "<group>"; };
+		107CFC50275753B5003C2C92 /* TYSqliteModelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYSqliteModelTool.h; sourceTree = "<group>"; };
+		107CFC51275753B5003C2C92 /* TYDebuggerMappingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDebuggerMappingModel.m; sourceTree = "<group>"; };
+		107CFC52275753B5003C2C92 /* TYDebuggerMappingTabCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDebuggerMappingTabCell.h; sourceTree = "<group>"; };
 		10C8F714275751CE00F67861 /* DateBaseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateBaseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C8F717275751CE00F67861 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10C8F718275751CE00F67861 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +88,9 @@
 		10C8F73A275751D100F67861 /* DateBaseDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateBaseDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C8F73E275751D100F67861 /* DateBaseDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateBaseDemoUITests.m; sourceTree = "<group>"; };
 		10C8F740275751D100F67861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C904FA83275657F77FF1979 /* Pods-DateBaseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateBaseDemo.release.xcconfig"; path = "Target Support Files/Pods-DateBaseDemo/Pods-DateBaseDemo.release.xcconfig"; sourceTree = "<group>"; };
+		63E9A8A5DEE1C3FB2C85B8E7 /* Pods-DateBaseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateBaseDemo.debug.xcconfig"; path = "Target Support Files/Pods-DateBaseDemo/Pods-DateBaseDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C7D7EAD0F3F9C32B2601EFC8 /* Pods_DateBaseDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DateBaseDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D37A7F9D1DCFA00022CF0E /* Pods_DateBaseDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +126,8 @@
 				10C8F732275751D100F67861 /* DateBaseDemoTests */,
 				10C8F73D275751D100F67861 /* DateBaseDemoUITests */,
 				10C8F715275751CE00F67861 /* Products */,
+				BCB4C2F0A5B118B5F1E8938D /* Pods */,
+				2B607A4C82C75C78219B45F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +150,28 @@
 				10C8F71B275751CE00F67861 /* SceneDelegate.m */,
 				10C8F71D275751CE00F67861 /* ViewController.h */,
 				10C8F71E275751CE00F67861 /* ViewController.m */,
+				107CFC4B275753B5003C2C92 /* TYDebuggerMappingModel.h */,
+				107CFC51275753B5003C2C92 /* TYDebuggerMappingModel.m */,
+				107CFC44275753B4003C2C92 /* TYDebuggerRequestModel.h */,
+				107CFC47275753B4003C2C92 /* TYDebuggerRequestModel.m */,
+				107CFC49275753B4003C2C92 /* TYDebuggerMappingViewController.h */,
+				107CFC4C275753B5003C2C92 /* TYDebuggerMappingViewController.m */,
+				107CFC52275753B5003C2C92 /* TYDebuggerMappingTabCell.h */,
+				107CFC3F275753B4003C2C92 /* TYDebuggerMappingTabCell.m */,
+				107CFC4D275753B5003C2C92 /* TYMappingDetailViewController.h */,
+				107CFC48275753B4003C2C92 /* TYMappingDetailViewController.m */,
+				107CFC3E275753B4003C2C92 /* TYDebuggerRequestViewController.h */,
+				107CFC41275753B4003C2C92 /* TYDebuggerRequestViewController.m */,
+				107CFC4A275753B4003C2C92 /* TYRequestDetailViewController.h */,
+				107CFC43275753B4003C2C92 /* TYRequestDetailViewController.m */,
+				107CFC45275753B4003C2C92 /* TYSqliteDatabase.h */,
+				107CFC4F275753B5003C2C92 /* TYSqliteDatabase.m */,
+				107CFC40275753B4003C2C92 /* TYSqliteModel.h */,
+				107CFC3D275753B4003C2C92 /* TYSqliteModel.m */,
+				107CFC50275753B5003C2C92 /* TYSqliteModelTool.h */,
+				107CFC46275753B4003C2C92 /* TYSqliteModelTool.m */,
+				107CFC4E275753B5003C2C92 /* TYSqliteTableTool.h */,
+				107CFC42275753B4003C2C92 /* TYSqliteTableTool.m */,
 				10C8F720275751CE00F67861 /* Main.storyboard */,
 				10C8F723275751D100F67861 /* Assets.xcassets */,
 				10C8F725275751D100F67861 /* LaunchScreen.storyboard */,
@@ -137,6 +199,24 @@
 			path = DateBaseDemoUITests;
 			sourceTree = "<group>";
 		};
+		2B607A4C82C75C78219B45F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7D7EAD0F3F9C32B2601EFC8 /* Pods_DateBaseDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCB4C2F0A5B118B5F1E8938D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63E9A8A5DEE1C3FB2C85B8E7 /* Pods-DateBaseDemo.debug.xcconfig */,
+				5C904FA83275657F77FF1979 /* Pods-DateBaseDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10C8F743275751D100F67861 /* Build configuration list for PBXNativeTarget "DateBaseDemo" */;
 			buildPhases = (
+				45DB164DFCECCAB3701FAEE1 /* [CP] Check Pods Manifest.lock */,
 				10C8F710275751CE00F67861 /* Sources */,
 				10C8F711275751CE00F67861 /* Frameworks */,
 				10C8F712275751CE00F67861 /* Resources */,
+				EF2E35EA372FFDDEF097DF04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +343,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45DB164DFCECCAB3701FAEE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DateBaseDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF2E35EA372FFDDEF097DF04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DateBaseDemo/Pods-DateBaseDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DateBaseDemo/Pods-DateBaseDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DateBaseDemo/Pods-DateBaseDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10C8F710275751CE00F67861 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,8 +392,19 @@
 			files = (
 				10C8F71F275751CE00F67861 /* ViewController.m in Sources */,
 				10C8F719275751CE00F67861 /* AppDelegate.m in Sources */,
+				107CFC58275753B5003C2C92 /* TYSqliteModelTool.m in Sources */,
+				107CFC5C275753B5003C2C92 /* TYSqliteDatabase.m in Sources */,
+				107CFC53275753B5003C2C92 /* TYSqliteModel.m in Sources */,
+				107CFC56275753B5003C2C92 /* TYSqliteTableTool.m in Sources */,
+				107CFC59275753B5003C2C92 /* TYDebuggerRequestModel.m in Sources */,
+				107CFC55275753B5003C2C92 /* TYDebuggerRequestViewController.m in Sources */,
 				10C8F72A275751D100F67861 /* main.m in Sources */,
+				107CFC5B275753B5003C2C92 /* TYDebuggerMappingViewController.m in Sources */,
+				107CFC54275753B5003C2C92 /* TYDebuggerMappingTabCell.m in Sources */,
+				107CFC5A275753B5003C2C92 /* TYMappingDetailViewController.m in Sources */,
+				107CFC5D275753B5003C2C92 /* TYDebuggerMappingModel.m in Sources */,
 				10C8F71C275751CE00F67861 /* SceneDelegate.m in Sources */,
+				107CFC57275753B5003C2C92 /* TYRequestDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +573,7 @@
 		};
 		10C8F744275751D100F67861 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E9A8A5DEE1C3FB2C85B8E7 /* Pods-DateBaseDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +591,7 @@
 		};
 		10C8F745275751D100F67861 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C904FA83275657F77FF1979 /* Pods-DateBaseDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
