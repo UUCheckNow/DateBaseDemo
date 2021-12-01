@@ -19,6 +19,8 @@
 
 @property(nonatomic, strong)UITableView *mappingTableView;
 
+@property(nonatomic, strong)NSMutableArray *requestModelArray;
+
 @end
 
 @implementation TYDebuggerRequestViewController

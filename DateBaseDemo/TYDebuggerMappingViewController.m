@@ -18,6 +18,8 @@
 
 @property(nonatomic, strong)UITableView *mappingTableView;
 
+@property(nonatomic, strong)NSMutableArray *mappingModelArray;
+
 @end
 
 @implementation TYDebuggerMappingViewController

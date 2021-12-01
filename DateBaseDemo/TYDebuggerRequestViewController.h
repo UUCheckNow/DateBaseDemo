@@ -11,8 +11,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TYDebuggerRequestViewController : UIViewController
 
-@property(nonatomic, strong)NSMutableArray *requestModelArray;
-
 @end
 
 NS_ASSUME_NONNULL_END

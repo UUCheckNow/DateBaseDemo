@@ -171,20 +171,10 @@ NSString *const bModelName = @"TYDebuggerRequestModel";
 
 // 查询模型
 -(void)queryModelsWithModelName:(NSString *)modelName{
-    NSMutableArray *modelarray = [NSMutableArray array];
-//    NSArray *resultArray = [TYSqliteModelTool queryAllDataModel:NSClassFromString(modelName) dataBaseName:data_presentation_table_key count:self.];
     if ([[TYDebuggerMappingModel class] isEqual: NSClassFromString(modelName)]) {
-//        for (TYDebuggerMappingModel *model in resultArray) {
-//            [modelarray addObject:model];
-//
-//        }
         TYDebuggerMappingViewController *vc = [[TYDebuggerMappingViewController alloc]init];
-        vc.mappingModelArray = modelarray;
         [self.navigationController pushViewController:vc animated:YES];
     } else {
-//        for (TYDebuggerRequestModel *model in resultArray) {
-//            [modelarray addObject:model];
-//        }
         TYDebuggerRequestViewController *vc = [[TYDebuggerRequestViewController alloc]init];
         vc.requestModelArray = modelarray;
         [self.navigationController pushViewController:vc animated:YES];

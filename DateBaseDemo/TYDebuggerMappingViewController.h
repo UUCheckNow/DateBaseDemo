@@ -11,8 +11,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TYDebuggerMappingViewController : UIViewController
 
-@property(nonatomic, strong)NSMutableArray *mappingModelArray;
-
 @end
 
 NS_ASSUME_NONNULL_END
